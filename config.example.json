@@ -1,0 +1,14 @@
+{
+  "secret_key": "",
+  "keystore_path": "~/.hyperliquid/keystore.json",
+  "account_address": "",
+  "multi_sig": {
+    "enabled": false,
+    "authorized_users": [
+      {
+        "account_address": "",
+        "secret_key": ""
+      }
+    ]
+  }
+}

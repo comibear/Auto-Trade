@@ -12,7 +12,15 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["src", "src.data"]
+packages = [
+    "src",
+    "src.clients",
+    "src.config",
+    "src.data",
+    "src.agent",
+    "src.trading",
+    "src.services",
+]
 
 [tool.setuptools.package-dir]
 "" = "."
