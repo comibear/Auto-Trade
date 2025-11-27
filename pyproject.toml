@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-trade"
+version = "0.0.1"
+description = "Auto Trading Bot"
+requires-python = ">=3.12"
+dependencies = [
+    "hyperliquid-python-sdk",
+]
+
+[tool.setuptools]
+packages = ["src", "src.data"]
+
+[tool.setuptools.package-dir]
+"" = "."
