@@ -1,3 +1,7 @@
+# Currently moved to 
+[here](https://github.com/OvooLab/AgenticTrade)
+In Progress, yet private repo with other project members
+
 # Auto-Trade (Hyperliquid)
 
 Modular scaffold for an automated trading service on Hyperliquid. The goal is to keep concerns separated: data collection, prompt construction, LLM decisioning, risk checks, and order execution.
